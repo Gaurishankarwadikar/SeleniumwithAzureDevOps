@@ -9,7 +9,7 @@
   
  <properties>
    
-        <suiteFile>TestChrome.xml</suiteFile>
+        <suiteFile>testng.xml</suiteFile>
     </properties>
 
  
