@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-23T12:20:26Z" name="Suite" finished-at="2022-09-23T12:21:10Z" duration-ms="43406">
+    <groups>
+    </groups>
+    <test started-at="2022-09-23T12:20:26Z" name="Test" finished-at="2022-09-23T12:21:10Z" duration-ms="43406">
+      <class name="com.shwetabh.docker.VerifyTitleinChrome">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.shwetabh.docker.VerifyTitleinChrome@2638011]" started-at="2022-09-23T17:50:26Z" name="setup" finished-at="2022-09-23T17:50:38Z" duration-ms="12088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="googleSearch()[pri:0, instance:com.shwetabh.docker.VerifyTitleinChrome@2638011]" started-at="2022-09-23T17:50:38Z" name="googleSearch" finished-at="2022-09-23T17:51:07Z" duration-ms="28972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearch -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.shwetabh.docker.VerifyTitleinChrome@2638011]" started-at="2022-09-23T17:51:07Z" name="teardown" finished-at="2022-09-23T17:51:10Z" duration-ms="2330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.shwetabh.docker.VerifyTitleinChrome -->
+      <class name="com.shwetabh.docker.VerifyTitleinEdge2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.shwetabh.docker.VerifyTitleinEdge2@313b2ea6]" started-at="2022-09-23T17:50:26Z" name="setup" finished-at="2022-09-23T17:50:36Z" duration-ms="9524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="googleSearch()[pri:0, instance:com.shwetabh.docker.VerifyTitleinEdge2@313b2ea6]" started-at="2022-09-23T17:50:36Z" name="googleSearch" finished-at="2022-09-23T17:50:39Z" duration-ms="3226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearch -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.shwetabh.docker.VerifyTitleinEdge2@313b2ea6]" started-at="2022-09-23T17:50:39Z" name="teardown" finished-at="2022-09-23T17:50:44Z" duration-ms="4608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.shwetabh.docker.VerifyTitleinEdge2 -->
+      <class name="com.shwetabh.docker.VerifyTitleinEdge">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.shwetabh.docker.VerifyTitleinEdge@6a2b953e]" started-at="2022-09-23T17:50:26Z" name="setup" finished-at="2022-09-23T17:50:39Z" duration-ms="13072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="googleSearch()[pri:0, instance:com.shwetabh.docker.VerifyTitleinEdge@6a2b953e]" started-at="2022-09-23T17:50:39Z" name="googleSearch" finished-at="2022-09-23T17:50:47Z" duration-ms="8279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearch -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.shwetabh.docker.VerifyTitleinEdge@6a2b953e]" started-at="2022-09-23T17:50:47Z" name="teardown" finished-at="2022-09-23T17:50:50Z" duration-ms="3012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.shwetabh.docker.VerifyTitleinEdge -->
+      <class name="com.shwetabh.docker.VerifyTitleinChrome2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.shwetabh.docker.VerifyTitleinChrome2@6ff29830]" started-at="2022-09-23T17:50:26Z" name="setup" finished-at="2022-09-23T17:50:36Z" duration-ms="9598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="googleSearch()[pri:0, instance:com.shwetabh.docker.VerifyTitleinChrome2@6ff29830]" started-at="2022-09-23T17:50:36Z" name="googleSearch" finished-at="2022-09-23T17:50:41Z" duration-ms="4994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearch -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.shwetabh.docker.VerifyTitleinChrome2@6ff29830]" started-at="2022-09-23T17:50:41Z" name="teardown" finished-at="2022-09-23T17:50:44Z" duration-ms="3159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.shwetabh.docker.VerifyTitleinChrome2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

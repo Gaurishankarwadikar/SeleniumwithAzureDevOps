@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="com.shwetabh.docker.VerifyTitleinChrome">
+        <methods>
+          <include name="teardown"/>
+          <include name="googleSearch"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.shwetabh.docker.VerifyTitleinChrome -->
+      <class name="com.shwetabh.docker.VerifyTitleinEdge">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="googleSearch"/>
+        </methods>
+      </class> <!-- com.shwetabh.docker.VerifyTitleinEdge -->
+      <class name="com.shwetabh.docker.VerifyTitleinChrome2">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="googleSearch"/>
+        </methods>
+      </class> <!-- com.shwetabh.docker.VerifyTitleinChrome2 -->
+      <class name="com.shwetabh.docker.VerifyTitleinEdge2">
+        <methods>
+          <include name="googleSearch"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.shwetabh.docker.VerifyTitleinEdge2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
