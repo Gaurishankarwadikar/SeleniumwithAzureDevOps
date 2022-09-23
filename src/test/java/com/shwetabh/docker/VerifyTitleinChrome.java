@@ -29,7 +29,7 @@ public class VerifyTitleinChrome {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	}
 	@Test
-	public void googleSearch() throws InterruptedException
+	public void aajtakSearch() throws InterruptedException
 	{	
 		driver.navigate().to("https://www.aajtak.in/");
 		System.out.println("Title of page is "+driver.getTitle());

@@ -29,7 +29,7 @@ public class VerifyTitleinEdge2 {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	}
 	@Test
-	public void googleSearch() throws InterruptedException
+	public void ETSearch() throws InterruptedException
 	{	
 		driver.navigate().to("https://economictimes.indiatimes.com/defaultinterstitial.cms");
 		System.out.println("Title of page is "+driver.getTitle());

@@ -29,7 +29,7 @@ public class VerifyTitleinEdge {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	}
 	@Test
-	public void googleSearch() throws InterruptedException
+	public void hdfcbankSearch() throws InterruptedException
 	{	
 		driver.navigate().to("https://www.hdfcbank.com/");
 		System.out.println("Title of page is "+driver.getTitle());
